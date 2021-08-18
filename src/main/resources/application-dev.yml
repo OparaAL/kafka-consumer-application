@@ -3,3 +3,14 @@ kafka:
   topicName: "kafkaEmailTopic"
   groupId: "groupId"
 
+aws:
+  ses:
+    template:
+      email: emailTemplate
+    fromEmail:
+  access:
+    ses:
+  secret:
+    ses:
+  region:
+    ses:
